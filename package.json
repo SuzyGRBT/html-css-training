@@ -1,0 +1,20 @@
+{
+  "name": "html-css-training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "style": "sass sass/style.scss sass/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuzyGRBT/html-css-training.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SuzyGRBT/html-css-training/issues"
+  },
+  "homepage": "https://github.com/SuzyGRBT/html-css-training#readme"
+}
