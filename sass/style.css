@@ -1,8 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 html {
   font-size: 10px;
 }
 
 body {
+  margin: 0;
   font-family: "Poppins", sans-serif;
   font-size: 1.4rem;
 }
@@ -36,9 +38,15 @@ h4 {
 }
 
 .button {
-  width: 160px;
-  height: 54px;
+  width: 140px;
+  height: 50px;
   border-radius: 50px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  color: #FFFFFF;
+  cursor: pointer;
 }
 
 .button_green {
@@ -46,7 +54,60 @@ h4 {
 }
 
 .button_grey {
+  margin-left: 30px;
   background: #494949;
+}
+
+.icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.wrapper {
+  margin: auto;
+  max-width: 1280px;
+}
+
+.header {
+  margin: 30px 70px 0 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo a {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 40px;
+  color: #181D19;
+  text-decoration: none;
+}
+
+.header__nav-list {
+  display: flex;
+  margin-right: 250px;
+}
+
+.header__nav-list-item {
+  padding: 0 20px;
+  list-style: none;
+}
+
+.header__nav-list-item a {
+  text-decoration: none;
+  color: #181D19;
+}
+
+.footer__copyright {
+  padding: 10px 0;
+  background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.colortext {
+  color: #5FB848;
 }
 
 /*# sourceMappingURL=style.css.map */

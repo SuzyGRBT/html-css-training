@@ -1,17 +1,16 @@
-@import "base/base";
-@import "components/components";
 @import "abstract/constants";
 
-.button {
-    width: 160px;
-    height: 54px;
-    border-radius: 50px;
-}
+//base
+@import "base/base";
+@import "base/buttons";
 
-.button_green {
-    background: $color-green-gradient;
-}
+@import "components/components";
 
-.button_grey {
-    background: $color-header-button;
+//layouts
+@import "layout/layout";
+@import "layout/header";
+@import "layout/footer";
+
+.colortext {
+    color: $color-active;
 }
