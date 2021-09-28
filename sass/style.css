@@ -1,8 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 html {
   font-size: 10px;
 }
 
 body {
+  margin: 0;
   font-family: "Poppins", sans-serif;
   font-size: 1.4rem;
 }
@@ -35,18 +37,120 @@ h4 {
   line-height: 25px;
 }
 
+.eat-healthy__text {
+  max-width: 550px;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.choose-us__heading {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.choose-us__text {
+  text-align: center;
+  font-size: 24px;
+}
+
 .button {
-  width: 160px;
-  height: 54px;
+  width: 140px;
+  height: 50px;
   border-radius: 50px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  color: #FFFFFF;
+  cursor: pointer;
 }
 
 .button_green {
   background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
 }
 
+.button_green:hover {
+  background: #67c74f;
+}
+
 .button_grey {
+  margin-left: 30px;
   background: #494949;
+}
+
+.button_grey:hover {
+  background: #868383;
+}
+
+.icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.eat-healthy__image img {
+  max-width: 685px;
+  max-height: 685px;
+}
+
+.choose-us__cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.wrapper {
+  margin: auto;
+  max-width: 1280px;
+}
+
+.eat-healthy {
+  display: flex;
+}
+
+.header {
+  margin: 30px 70px 0 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo a {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 40px;
+  color: #181D19;
+  text-decoration: none;
+}
+
+.header__nav-list {
+  display: flex;
+  margin-right: 250px;
+}
+
+.header__nav-list-item {
+  padding: 0 20px;
+  list-style: none;
+  transition: 0.3s;
+}
+
+.header__nav-list-item:hover {
+  font-size: 15px;
+}
+
+.header__nav-list-item a {
+  text-decoration: none;
+  color: #181D19;
+}
+
+.footer__copyright {
+  padding: 10px 0;
+  background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.colortext {
+  color: #5FB848;
 }
 
 /*# sourceMappingURL=style.css.map */
