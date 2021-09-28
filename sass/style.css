@@ -37,6 +37,22 @@ h4 {
   line-height: 25px;
 }
 
+.eat-healthy__text {
+  max-width: 550px;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.choose-us__heading {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.choose-us__text {
+  text-align: center;
+  font-size: 24px;
+}
+
 .button {
   width: 140px;
   height: 50px;
@@ -53,9 +69,17 @@ h4 {
   background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
 }
 
+.button_green:hover {
+  background: #67c74f;
+}
+
 .button_grey {
   margin-left: 30px;
   background: #494949;
+}
+
+.button_grey:hover {
+  background: #868383;
 }
 
 .icon {
@@ -64,9 +88,23 @@ h4 {
   cursor: pointer;
 }
 
+.eat-healthy__image img {
+  max-width: 685px;
+  max-height: 685px;
+}
+
+.choose-us__cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .wrapper {
   margin: auto;
   max-width: 1280px;
+}
+
+.eat-healthy {
+  display: flex;
 }
 
 .header {
@@ -92,6 +130,11 @@ h4 {
 .header__nav-list-item {
   padding: 0 20px;
   list-style: none;
+  transition: 0.3s;
+}
+
+.header__nav-list-item:hover {
+  font-size: 15px;
 }
 
 .header__nav-list-item a {

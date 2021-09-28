@@ -16,9 +16,17 @@
     background: $color-green-gradient;
 }
 
+.button_green:hover {
+    background: $color-button-hovered;
+}
+
 .button_grey {
     margin-left: 30px;
     background: $color-header-button;
+}
+
+.button_grey:hover {
+    background: $color-header-hovered;
 }
 
 .icon {

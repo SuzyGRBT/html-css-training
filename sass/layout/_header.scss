@@ -21,6 +21,11 @@
 .header__nav-list-item {
     padding: 0 20px;
     list-style: none;
+    transition: 0.3s;
+}
+
+.header__nav-list-item:hover {
+    font-size: 15px;
 }
 
 .header__nav-list-item a {
