@@ -20,3 +20,14 @@
         flex-basis: $width;
     }
 }
+
+@mixin info-blocks() {
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin info-blocks-alt() {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

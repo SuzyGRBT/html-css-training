@@ -4,14 +4,37 @@
 }
 
 .eat-healthy {
-    display:flex;
+    display: flex;
 }
 
 .about-us {
-    display: flex;
-    justify-content: space-between;
+    @include info-blocks();
 }
 
 .about-us__info {
     max-width: 48rem;
+}
+
+.fresh {
+    @include info-blocks();
+}
+
+.chefs {
+    @include info-blocks();
+}
+
+.special-dishes {
+    @include info-blocks-alt();
+}
+
+.clients-info {
+    @include info-blocks-alt();
+}
+
+.subscribe {
+    @include info-blocks-alt();
+}
+
+.footer__main {
+    display: flex;
 }

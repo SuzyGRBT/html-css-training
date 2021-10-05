@@ -43,3 +43,7 @@ h4 {
 .about-us__text {
     @include font-paragraph()
 }
+
+.chouse-us-numbers {
+    @include font-paragraph(4.4rem, 5.5rem, 700);
+}
