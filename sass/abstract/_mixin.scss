@@ -1,0 +1,22 @@
+@mixin font-heading($size, $height, $weight: 770, $style: normal) {
+    font-size: $size;
+    font-style: $style;
+    font-weight: $weight;
+    line-height: $height;
+}
+
+@mixin font-paragraph($size: 2.2rem, $height: 3.4rem, $weight: 200, $style: normal) {
+    font-style: $style;
+    font-weight: $weight;
+    font-size: $size;
+    line-height: $height;
+}
+
+@mixin columns($width) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    >* {
+        flex-basis: $width;
+    }
+}

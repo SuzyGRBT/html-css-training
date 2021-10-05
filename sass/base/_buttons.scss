@@ -5,28 +5,23 @@
     height: 50px;
     border-radius: 50px;
     font-family: 'Open Sans', sans-serif;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 20px;
     color: $color-text-alt;
     cursor: pointer;
-}
+	@include font-heading(1.5rem, 2rem, 400);
 
-.button_green {
-    background: $color-green-gradient;
-}
-
-.button_green:hover {
-    background: $color-button-hovered;
-}
-
-.button_grey {
-    margin-left: 30px;
-    background: $color-header-button;
-}
-
-.button_grey:hover {
-    background: $color-header-hovered;
+    &_green {
+        background: $color-green-gradient;
+        &:hover {
+            background: $color-button-hovered;
+        }
+    }
+    &_grey {
+        margin-left: 30px;
+        background: $color-header-button;
+        &:hover {
+            background: $color-header-hovered;
+        }
+    }
 }
 
 .icon {

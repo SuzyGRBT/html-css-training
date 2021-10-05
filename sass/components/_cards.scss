@@ -1,4 +1,9 @@
 .choose-us__cards {
-    display: flex;
-    justify-content: space-evenly;
+    @include columns(32%);
+}
+
+.choose-us__cards-info {
+    margin: auto;
+    width: 70rem;
+    @include columns(14rem);
 }
