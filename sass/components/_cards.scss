@@ -1,9 +1,35 @@
 .choose-us__cards {
-    @include columns(32%);
+    @include columns(25%);
+    padding: 6rem;
 }
 
 .choose-us__cards-info {
     margin: auto;
+    padding-bottom: 10rem;
     width: 70rem;
     @include columns(14rem);
+}
+
+.choose-us__card-item {
+    @include info-blocks-alt();
+    & p {
+        @include font-paragraph(1.8rem, 2.8rem);
+        text-align: center;
+        margin: 0;
+    }
+}
+
+.choose-us__card-info-item {
+    text-align: center;
+    & p {
+        @include font-paragraph(2rem, 2.5rem);
+    }
+}
+
+.special-dishes__cards {
+    @include columns(14rem);
+}
+
+.clients-info__cards {
+    @include columns(51rem);
 }

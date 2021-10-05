@@ -60,6 +60,13 @@ h4 {
   line-height: 3.4rem;
 }
 
+.chouse-us-numbers {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4.4rem;
+  line-height: 5.5rem;
+}
+
 .button {
   width: 140px;
   height: 50px;
@@ -105,13 +112,15 @@ h4 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding: 6rem;
 }
 .choose-us__cards > * {
-  flex-basis: 32%;
+  flex-basis: 25%;
 }
 
 .choose-us__cards-info {
   margin: auto;
+  padding-bottom: 10rem;
   width: 70rem;
   display: flex;
   flex-wrap: wrap;
@@ -119,6 +128,48 @@ h4 {
 }
 .choose-us__cards-info > * {
   flex-basis: 14rem;
+}
+
+.choose-us__card-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.choose-us__card-item p {
+  font-style: normal;
+  font-weight: 200;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  text-align: center;
+  margin: 0;
+}
+
+.choose-us__card-info-item {
+  text-align: center;
+}
+.choose-us__card-info-item p {
+  font-style: normal;
+  font-weight: 200;
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+.special-dishes__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.special-dishes__cards > * {
+  flex-basis: 14rem;
+}
+
+.clients-info__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.clients-info__cards > * {
+  flex-basis: 51rem;
 }
 
 .wrapper {
@@ -137,6 +188,38 @@ h4 {
 
 .about-us__info {
   max-width: 48rem;
+}
+
+.fresh {
+  display: flex;
+  justify-content: space-between;
+}
+
+.chefs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.special-dishes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.clients-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__main {
+  display: flex;
 }
 
 .header {
@@ -179,6 +262,22 @@ h4 {
   background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
   color: #FFFFFF;
   text-align: center;
+}
+
+.footer__nav-block {
+  display: flex;
+}
+
+.footer__nav {
+  padding: 0 5rem;
+}
+
+.footer__nav-list-item {
+  list-style: none;
+}
+
+.footer__nav-list-item:nth-child(1) {
+  font-weight: bold;
 }
 
 .colortext {

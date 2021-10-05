@@ -4,3 +4,19 @@
     color: $color-text-alt;
     text-align: center;
 }
+
+.footer__nav-block {
+    display: flex;
+}
+
+.footer__nav {
+    padding: 0 5rem;
+}
+
+.footer__nav-list-item {
+    list-style: none;
+}
+
+.footer__nav-list-item:nth-child(1) {
+    font-weight: bold;
+}
