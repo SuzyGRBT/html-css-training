@@ -6,3 +6,12 @@
 .eat-healthy {
     display:flex;
 }
+
+.about-us {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-us__info {
+    max-width: 48rem;
+}
