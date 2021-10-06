@@ -1,8 +1,16 @@
 .eat-healthy__image img {
-    max-width: 685px;
-    max-height: 685px;
+    max-width: 68rem;
+    max-height: 68rem;
 }
 
 .about-us__image img {
     max-width: 64rem;
+}
+
+.chefs__image img {
+    max-width: 72rem;
+}
+
+.clients-info__arrow {
+    cursor: pointer;
 }

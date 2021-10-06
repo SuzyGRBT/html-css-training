@@ -49,6 +49,7 @@ h4 {
 }
 
 .choose-us__text {
+  margin-bottom: 4rem;
   text-align: center;
   font-size: 2.4rem;
 }
@@ -60,11 +61,93 @@ h4 {
   line-height: 3.4rem;
 }
 
+.fresh__text {
+  font-style: normal;
+  font-weight: 200;
+  font-size: 2.2rem;
+  line-height: 3.4rem;
+  margin-bottom: 4rem;
+}
+
+.chefs__text {
+  font-style: normal;
+  font-weight: 200;
+  font-size: 2.2rem;
+  line-height: 3.4rem;
+}
+
+.chefs__list {
+  margin-top: 3rem;
+  font-size: 20px;
+  line-height: 25px;
+  list-style-image: url("../assets/check.svg");
+}
+
+.chefs__chefs-item {
+  padding-bottom: 2rem;
+}
+
 .chouse-us-numbers {
   font-style: normal;
   font-weight: 700;
   font-size: 4.4rem;
   line-height: 5.5rem;
+}
+
+.special-dishes__heading {
+  margin-bottom: 0;
+}
+
+.special-dishes__text {
+  text-align: center;
+  font-size: 2.4rem;
+}
+
+.special-dishes__card-text {
+  text-align: center;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+}
+
+.client-name h4 {
+  margin-bottom: 0.5rem;
+}
+
+.client-card__text {
+  padding: 3rem 1rem;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.8rem;
+  line-height: 3rem;
+}
+
+.subscribe__heading {
+  margin-bottom: 0.5rem;
+}
+
+.subscribe__text {
+  font-style: normal;
+  font-weight: 200;
+  font-size: 2.2rem;
+  line-height: 3.4rem;
+}
+
+.subscribe__input {
+  padding-left: 1rem;
+  width: 33rem;
+  height: 5rem;
+  border: 2px solid #F5F5F5;
+  box-sizing: border-box;
+  border-radius: 16rem;
+}
+
+.footer__text {
+  font-style: normal;
+  font-weight: 200;
+  font-size: 1.3rem;
+  line-height: 2rem;
 }
 
 .button {
@@ -100,12 +183,20 @@ h4 {
 }
 
 .eat-healthy__image img {
-  max-width: 685px;
-  max-height: 685px;
+  max-width: 68rem;
+  max-height: 68rem;
 }
 
 .about-us__image img {
   max-width: 64rem;
+}
+
+.chefs__image img {
+  max-width: 72rem;
+}
+
+.clients-info__arrow {
+  cursor: pointer;
 }
 
 .choose-us__cards {
@@ -155,6 +246,8 @@ h4 {
 }
 
 .special-dishes__cards {
+  margin: 2rem 0 3rem 0;
+  justify-content: space-evenly;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -163,13 +256,31 @@ h4 {
   flex-basis: 14rem;
 }
 
+.special-dishes__card {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: -15px -50px 81px #FFFFFF, 10px 20px 70px rgba(71, 68, 68, 0.08);
+}
+
 .clients-info__cards {
+  margin: 0 15rem 5rem 15rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 .clients-info__cards > * {
-  flex-basis: 51rem;
+  flex-basis: 47rem;
+}
+
+.client-card {
+  box-shadow: 3px 15px 35px rgba(120, 125, 173, 0.06);
+}
+
+.client-card__heading {
+  display: flex;
+  justify-content: space-between;
 }
 
 .wrapper {
@@ -182,17 +293,24 @@ h4 {
 }
 
 .about-us {
+  margin-bottom: 14rem;
   display: flex;
   justify-content: space-between;
 }
 
 .about-us__info {
   max-width: 48rem;
+  margin-top: 5%;
 }
 
 .fresh {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 10rem;
+}
+
+.fresh__info {
+  max-width: 51rem;
 }
 
 .chefs {
@@ -200,7 +318,12 @@ h4 {
   justify-content: space-between;
 }
 
+.chefs__info {
+  max-width: 50rem;
+}
+
 .special-dishes {
+  margin-top: 5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -213,13 +336,16 @@ h4 {
 }
 
 .subscribe {
+  margin: 8rem auto;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .footer__main {
+  padding: 5rem;
   display: flex;
+  justify-content: space-between;
 }
 
 .header {
@@ -273,10 +399,17 @@ h4 {
 }
 
 .footer__nav-list-item {
+  padding-bottom: 1rem;
   list-style: none;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  cursor: pointer;
 }
 
 .footer__nav-list-item:nth-child(1) {
+  padding-bottom: 1.5rem;
   font-weight: bold;
 }
 
