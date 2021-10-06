@@ -1,0 +1,84 @@
+//eat healthy block
+.eat-healthy__text {
+    max-width: 55rem;
+    @include font-paragraph(2.4rem, 3.4rem, 300);
+}
+
+.colortext {
+    color: $color-active;
+}
+
+//choose us block
+.choose-us__heading {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.choose-us__text {
+    margin-bottom: 4rem;
+    text-align: center;
+    font-size: 2.4rem;
+}
+
+.chouse-us-numbers {
+    @include font-paragraph(4.4rem, 5.5rem, 700);
+}
+
+//about us block
+.about-us__text {
+    @include font-paragraph();
+}
+
+//fresh block
+.fresh__text {
+    margin-bottom: 4rem;
+    @include font-paragraph();
+}
+
+//chefs block
+.chefs__text {
+    @include font-paragraph();
+}
+
+
+//special dishes block
+.special-dishes__heading {
+    margin-bottom: 0;
+}
+.special-dishes__text {
+    text-align: center;
+    font-size: 2.4rem;
+}
+
+.special-dishes__card-text {
+    text-align: center;
+    @include font-paragraph(1.6rem, 2.8rem, 300);
+}
+
+//clients info block
+.client-name h4 {
+    margin-bottom: 0.5rem;
+}
+
+.client-card__heading {
+    @include info-blocks();
+}
+
+.client-card__text {
+    padding: 3rem 1rem;
+    @include font-paragraph(1.8rem, 3rem, 300);
+}
+
+//subscribe block
+.subscribe__heading {
+    margin-bottom: 0.5rem;
+}
+
+.subscribe__text {
+    @include font-paragraph();
+}
+
+//footer block
+.footer__text {
+    @include font-paragraph(1.3rem, 2rem, 200);
+}

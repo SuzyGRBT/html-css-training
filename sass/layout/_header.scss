@@ -1,35 +1,11 @@
 .header {
-    margin: 30px 70px 0 70px;
-    display: flex;
+    margin: 3rem 7rem 0 7rem;
     align-items: center;
-    justify-content: space-between;
+    @include info-blocks();
 }
 
 .header__logo a {
-    font-weight: 500;
-    font-size: 26px;
-    line-height: 40px;
     color: $color-text;
     text-decoration: none;
+    @include font-paragraph(2.6rem, 4rem, 500)
 }
-
-.header__nav-list {
-    display: flex;
-    margin-right: 250px;
-}
-
-.header__nav-list-item {
-    padding: 0 20px;
-    list-style: none;
-    transition: 0.3s;
-}
-
-.header__nav-list-item:hover {
-    font-size: 15px;
-}
-
-.header__nav-list-item a {
-    text-decoration: none;
-    color: $color-text;
-}
-

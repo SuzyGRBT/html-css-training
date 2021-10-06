@@ -37,10 +37,48 @@ h4 {
   line-height: 2.5rem;
 }
 
+.button {
+  width: 14rem;
+  height: 5rem;
+  border-radius: 5rem;
+  font-family: "Open Sans", sans-serif;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2rem;
+}
+.button_green {
+  background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+}
+.button_green:hover {
+  background: #67c74f;
+}
+.button_grey {
+  margin-left: 3rem;
+  background: #494949;
+}
+.button_grey:hover {
+  background: #868383;
+}
+
+.icon {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
 .eat-healthy__text {
-  max-width: 550px;
+  max-width: 55rem;
+  font-style: normal;
+  font-weight: 300;
   font-size: 2.4rem;
   line-height: 3.4rem;
+}
+
+.colortext {
+  color: #5FB848;
 }
 
 .choose-us__heading {
@@ -54,6 +92,13 @@ h4 {
   font-size: 2.4rem;
 }
 
+.chouse-us-numbers {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4.4rem;
+  line-height: 5.5rem;
+}
+
 .about-us__text {
   font-style: normal;
   font-weight: 200;
@@ -62,11 +107,11 @@ h4 {
 }
 
 .fresh__text {
+  margin-bottom: 4rem;
   font-style: normal;
   font-weight: 200;
   font-size: 2.2rem;
   line-height: 3.4rem;
-  margin-bottom: 4rem;
 }
 
 .chefs__text {
@@ -74,24 +119,6 @@ h4 {
   font-weight: 200;
   font-size: 2.2rem;
   line-height: 3.4rem;
-}
-
-.chefs__list {
-  margin-top: 3rem;
-  font-size: 20px;
-  line-height: 25px;
-  list-style-image: url("../assets/check.svg");
-}
-
-.chefs__chefs-item {
-  padding-bottom: 2rem;
-}
-
-.chouse-us-numbers {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 4.4rem;
-  line-height: 5.5rem;
 }
 
 .special-dishes__heading {
@@ -115,6 +142,11 @@ h4 {
   margin-bottom: 0.5rem;
 }
 
+.client-card__heading {
+  display: flex;
+  justify-content: space-between;
+}
+
 .client-card__text {
   padding: 3rem 1rem;
   font-style: normal;
@@ -134,15 +166,6 @@ h4 {
   line-height: 3.4rem;
 }
 
-.subscribe__input {
-  padding-left: 1rem;
-  width: 33rem;
-  height: 5rem;
-  border: 2px solid #F5F5F5;
-  box-sizing: border-box;
-  border-radius: 16rem;
-}
-
 .footer__text {
   font-style: normal;
   font-weight: 200;
@@ -150,60 +173,11 @@ h4 {
   line-height: 2rem;
 }
 
-.button {
-  width: 140px;
-  height: 50px;
-  border-radius: 50px;
-  font-family: "Open Sans", sans-serif;
-  color: #FFFFFF;
-  cursor: pointer;
-  font-size: 1.5rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 2rem;
-}
-.button_green {
-  background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
-}
-.button_green:hover {
-  background: #67c74f;
-}
-.button_grey {
-  margin-left: 30px;
-  background: #494949;
-}
-.button_grey:hover {
-  background: #868383;
-}
-
-.icon {
-  background: none;
-  border: none;
-  cursor: pointer;
-}
-
-.eat-healthy__image img {
-  max-width: 68rem;
-  max-height: 68rem;
-}
-
-.about-us__image img {
-  max-width: 64rem;
-}
-
-.chefs__image img {
-  max-width: 72rem;
-}
-
-.clients-info__arrow {
-  cursor: pointer;
-}
-
 .choose-us__cards {
+  padding: 6rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 6rem;
 }
 .choose-us__cards > * {
   flex-basis: 25%;
@@ -227,12 +201,12 @@ h4 {
   align-items: center;
 }
 .choose-us__card-item p {
+  margin: 0;
+  text-align: center;
   font-style: normal;
   font-weight: 200;
   font-size: 1.8rem;
   line-height: 2.8rem;
-  text-align: center;
-  margin: 0;
 }
 
 .choose-us__card-info-item {
@@ -258,10 +232,16 @@ h4 {
 
 .special-dishes__card {
   padding: 3rem;
+  box-shadow: -15px -50px 81px #FFFFFF, 10px 20px 70px rgba(71, 68, 68, 0.08);
+  transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: -15px -50px 81px #FFFFFF, 10px 20px 70px rgba(71, 68, 68, 0.08);
+}
+.special-dishes__card:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 .clients-info__cards {
@@ -278,9 +258,113 @@ h4 {
   box-shadow: 3px 15px 35px rgba(120, 125, 173, 0.06);
 }
 
-.client-card__heading {
+.subscribe__input {
+  padding-left: 1rem;
+  width: 33rem;
+  height: 5rem;
+  border: 2px solid #F5F5F5;
+  box-sizing: border-box;
+  border-radius: 16rem;
+}
+
+.eat-healthy__image img {
+  max-width: 68rem;
+  max-height: 68rem;
+}
+
+.about-us__image img {
+  max-width: 64rem;
+}
+
+.chefs__image img {
+  max-width: 72rem;
+}
+
+.clients-info__arrow {
+  cursor: pointer;
+}
+
+.chefs__list {
+  margin-top: 3rem;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  list-style-image: url("../assets/check.svg");
+}
+
+.chefs__chefs-item {
+  padding-bottom: 2rem;
+}
+
+.footer__main {
+  padding: 5rem;
   display: flex;
   justify-content: space-between;
+}
+
+.footer__copyright {
+  padding: 1rem 0;
+  background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.header {
+  margin: 3rem 7rem 0 7rem;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo a {
+  color: #181D19;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.6rem;
+  line-height: 4rem;
+}
+
+.header__nav-list {
+  display: flex;
+  margin-right: 25rem;
+}
+
+.header__nav-list-item {
+  padding: 0 2rem;
+  list-style: none;
+  transition: 0.3s;
+}
+
+.header__nav-list-item:hover {
+  font-size: 1.5rem;
+}
+
+.header__nav-list-item a {
+  text-decoration: none;
+  color: #181D19;
+}
+
+.footer__nav-block {
+  display: flex;
+}
+
+.footer__nav {
+  padding: 0 5rem;
+}
+
+.footer__nav-list-item {
+  padding-bottom: 1rem;
+  list-style: none;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+
+.footer__nav-list-item:nth-child(1) {
+  padding-bottom: 1.5rem;
+  font-weight: bold;
 }
 
 .wrapper {
@@ -299,14 +383,14 @@ h4 {
 }
 
 .about-us__info {
-  max-width: 48rem;
   margin-top: 5%;
+  max-width: 48rem;
 }
 
 .fresh {
+  margin-bottom: 10rem;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 10rem;
 }
 
 .fresh__info {
@@ -340,81 +424,6 @@ h4 {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.footer__main {
-  padding: 5rem;
-  display: flex;
-  justify-content: space-between;
-}
-
-.header {
-  margin: 30px 70px 0 70px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.header__logo a {
-  font-weight: 500;
-  font-size: 26px;
-  line-height: 40px;
-  color: #181D19;
-  text-decoration: none;
-}
-
-.header__nav-list {
-  display: flex;
-  margin-right: 250px;
-}
-
-.header__nav-list-item {
-  padding: 0 20px;
-  list-style: none;
-  transition: 0.3s;
-}
-
-.header__nav-list-item:hover {
-  font-size: 15px;
-}
-
-.header__nav-list-item a {
-  text-decoration: none;
-  color: #181D19;
-}
-
-.footer__copyright {
-  padding: 10px 0;
-  background: linear-gradient(180deg, #64BB47 0%, #2C9553 100%);
-  color: #FFFFFF;
-  text-align: center;
-}
-
-.footer__nav-block {
-  display: flex;
-}
-
-.footer__nav {
-  padding: 0 5rem;
-}
-
-.footer__nav-list-item {
-  padding-bottom: 1rem;
-  list-style: none;
-  font-style: normal;
-  font-weight: 200;
-  font-size: 1.3rem;
-  line-height: 2rem;
-  cursor: pointer;
-}
-
-.footer__nav-list-item:nth-child(1) {
-  padding-bottom: 1.5rem;
-  font-weight: bold;
-}
-
-.colortext {
-  color: #5FB848;
 }
 
 /*# sourceMappingURL=style.css.map */
