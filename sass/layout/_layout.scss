@@ -8,22 +8,34 @@
 }
 
 .about-us {
+    margin-bottom: 14rem;
     @include info-blocks();
 }
 
 .about-us__info {
     max-width: 48rem;
+    margin-top: 5%;
 }
 
 .fresh {
     @include info-blocks();
+    margin-bottom: 10rem;
+}
+
+.fresh__info {
+    max-width: 51rem;
 }
 
 .chefs {
     @include info-blocks();
 }
 
+.chefs__info {
+    max-width: 50rem;
+}
+
 .special-dishes {
+    margin-top: 5rem;
     @include info-blocks-alt();
 }
 
@@ -32,9 +44,12 @@
 }
 
 .subscribe {
+    margin: 8rem auto;
     @include info-blocks-alt();
 }
 
 .footer__main {
+    padding: 5rem;
     display: flex;
+    justify-content: space-between;
 }
