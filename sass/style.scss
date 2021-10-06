@@ -1,19 +1,20 @@
+//abstact
 @import "abstract/constants";
 @import "abstract/mixin";
 
 //base
 @import "base/base";
 @import "base/buttons";
+@import "base/typography";
 
 //components
-@import "components/images";
 @import "components/cards";
+@import "components/forms";
+@import "components/images";
+@import "components/lists";
 
 //layouts
-@import "layout/layout";
-@import "layout/header";
 @import "layout/footer";
-
-.colortext {
-    color: $color-active;
-}
+@import "layout/header";
+@import "layout/navigation";
+@import "layout/partials";

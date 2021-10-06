@@ -1,6 +1,7 @@
+//choose us block
 .choose-us__cards {
-    @include columns(25%);
     padding: 6rem;
+    @include columns(25%);
 }
 
 .choose-us__cards-info {
@@ -13,9 +14,9 @@
 .choose-us__card-item {
     @include info-blocks-alt();
     & p {
-        @include font-paragraph(1.8rem, 2.8rem);
-        text-align: center;
         margin: 0;
+        text-align: center;
+        @include font-paragraph(1.8rem, 2.8rem);
     }
 }
 
@@ -26,6 +27,7 @@
     }
 }
 
+//special dishes block
 .special-dishes__cards {
     margin: 2rem 0 3rem 0;
     justify-content: space-evenly;
@@ -34,12 +36,17 @@
 
 .special-dishes__card {
     padding: 3rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     box-shadow: -15px -50px 81px #FFFFFF, 10px 20px 70px rgba(71, 68, 68, 0.08);
+    transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+    @include info-blocks-alt();
+    &:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+    }
 }
 
+//clients info block
 .clients-info__cards {
     margin: 0 15rem 5rem 15rem;
     @include columns(47rem);
@@ -47,8 +54,4 @@
 
 .client-card {
     box-shadow: 3px 15px 35px rgba(120, 125, 173, 0.06);
-}
-
-.client-card__heading {
-    @include info-blocks();
 }

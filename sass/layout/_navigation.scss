@@ -1,0 +1,41 @@
+//header navigation
+.header__nav-list {
+    display: flex;
+    margin-right: 25rem;
+}
+
+.header__nav-list-item {
+    padding: 0 2rem;
+    list-style: none;
+    transition: 0.3s;
+}
+
+.header__nav-list-item:hover {
+    font-size: 1.5rem;
+}
+
+.header__nav-list-item a {
+    text-decoration: none;
+    color: $color-text;
+}
+
+//footer navigation
+.footer__nav-block {
+    display: flex;
+}
+
+.footer__nav {
+    padding: 0 5rem;
+}
+
+.footer__nav-list-item {
+    padding-bottom: 1rem;
+    list-style: none;
+    cursor: pointer;
+    @include font-paragraph(1.3rem, 2rem, 200);
+}
+
+.footer__nav-list-item:nth-child(1) {
+    padding-bottom: 1.5rem;
+    font-weight: bold;
+}

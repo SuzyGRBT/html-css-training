@@ -13,13 +13,13 @@
 }
 
 .about-us__info {
-    max-width: 48rem;
     margin-top: 5%;
+    max-width: 48rem;
 }
 
 .fresh {
-    @include info-blocks();
     margin-bottom: 10rem;
+    @include info-blocks();
 }
 
 .fresh__info {
@@ -46,10 +46,4 @@
 .subscribe {
     margin: 8rem auto;
     @include info-blocks-alt();
-}
-
-.footer__main {
-    padding: 5rem;
-    display: flex;
-    justify-content: space-between;
 }

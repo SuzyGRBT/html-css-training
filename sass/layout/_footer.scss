@@ -1,26 +1,11 @@
+.footer__main {
+    padding: 5rem;
+    @include info-blocks();
+}
+
 .footer__copyright {
-    padding: 10px 0;
+    padding: 1rem 0;
     background: $color-green-gradient;
     color: $color-text-alt;
     text-align: center;
-}
-
-.footer__nav-block {
-    display: flex;
-}
-
-.footer__nav {
-    padding: 0 5rem;
-}
-
-.footer__nav-list-item {
-    padding-bottom: 1rem;
-    list-style: none;
-    @include font-paragraph(1.3rem, 2rem, 200);
-    cursor: pointer;
-}
-
-.footer__nav-list-item:nth-child(1) {
-    padding-bottom: 1.5rem;
-    font-weight: bold;
 }
